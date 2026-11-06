@@ -1,0 +1,44 @@
+/apps/
+/.codex/
+target/
+srcbin/
+crates/svg-editor/node_modules/
+crates/svg-editor/web/dist/
+crates/svg-editor/data/
+/.cargo/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Package manager credentials
+.npmrc
+.yarnrc.yml
+
+# Credentials and private keys
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Infrastructure state
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Common local files
+.DS_Store
+Thumbs.db

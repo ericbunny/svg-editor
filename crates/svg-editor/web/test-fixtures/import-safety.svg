@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" onload="alert('unsafe')">
+  <defs>
+    <linearGradient id="paint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2864dc"/>
+      <stop offset="1" stop-color="#7438dc"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .surface { fill: #f1f5f9; stroke: #2563eb; stroke-width: 2; }
+    .unsafe-external { fill: url(https://example.com/paint.svg#color); }
+    @import url("https://example.com/style.css");
+  </style>
+  <script>alert('unsafe')</script>
+  <rect class="surface" x="20" y="20" width="80" height="40"/>
+  <rect x="10" y="10" width="300" height="160" rx="24" fill="url(#paint)" onclick="alert('unsafe')"/>
+  <path d="M80 95 L140 145 L240 45" fill="none" stroke="#fff" stroke-width="18"/>
+  <image href="https://example.com/tracker.png" width="10" height="10"/>
+</svg>
