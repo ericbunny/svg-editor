@@ -1,0 +1,359 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" font-family="Inter, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', system-ui, sans-serif" role="img" aria-label="Rust SVG Editor 编辑器界面预览">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.55" stop-color="#7c5cf4"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b5bd6"/>
+      <stop offset="1" stop-color="#7c5cf6"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#e8ebf1" stroke-width="1"/>
+    </pattern>
+    <filter id="windowShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#101828" flood-opacity="0.12"/>
+    </filter>
+    <filter id="pageShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#101828" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10z" fill="#8b95aa"/>
+    </marker>
+    <clipPath id="win">
+      <rect x="32" y="32" width="1216" height="736" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1280" height="800" fill="#eef1f7"/>
+  <rect x="32" y="32" width="1216" height="736" rx="16" fill="#eef1f7" filter="url(#windowShadow)"/>
+
+  <g clip-path="url(#win)">
+    <!-- 顶部栏 -->
+    <rect x="32" y="32" width="1216" height="66" fill="#ffffff"/>
+    <line x1="32" y1="97.5" x2="1248" y2="97.5" stroke="#e5e9f1"/>
+
+    <g transform="translate(48,47)">
+      <rect width="36" height="36" rx="11" fill="url(#brand)"/>
+      <path d="M18 8.5l2.4 7.1 7.1 2.4-7.1 2.4L18 27.5l-2.4-7.1L8.5 18l7.1-2.4z" fill="#ffffff" opacity="0.95"/>
+      <circle cx="27" cy="9.5" r="1.8" fill="#ffffff" opacity="0.85"/>
+    </g>
+    <text x="94" y="60" font-size="13.5" font-weight="700" fill="#1a2233">Rust SVG Editor</text>
+    <text x="94" y="76" font-size="9.5" fill="#98a1b3">flowchart-demo.svg</text>
+
+    <!-- 工具栏 -->
+    <g transform="translate(272,49)">
+      <rect width="32" height="32" rx="8" fill="#ffffff" stroke="#e8ecf4"/>
+      <path d="M12 21V11h6l3 3v7z" fill="none" stroke="#3f4860" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M17 17v4M15 19h4" stroke="#3f4860" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(306,49)">
+      <rect width="32" height="32" rx="8" fill="#ffffff" stroke="#e8ecf4"/>
+      <path d="M10.5 21.5v-11h4.2l1.8 2h5v9z" fill="none" stroke="#3f4860" stroke-width="1.5" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(340,49)">
+      <rect width="32" height="32" rx="8" fill="#ffffff" stroke="#e8ecf4"/>
+      <path d="M11 10.5h8.4l2.6 2.6v10.4H11z" fill="none" stroke="#3f4860" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M13.5 10.5v4.5h6v-4.5M13.5 23.5v-5h6v5" fill="none" stroke="#3f4860" stroke-width="1.5" stroke-linejoin="round"/>
+    </g>
+    <line x1="384" y1="54" x2="384" y2="76" stroke="#e5e9f1"/>
+
+    <g transform="translate(396,49)">
+      <rect width="32" height="32" rx="8" fill="#eef0ff" stroke="#c8cdfb"/>
+      <path d="M14.5 12L10 16l4.5 4M17.5 12L22 16l-4.5 4" fill="none" stroke="#5b5bd6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(430,49)">
+      <rect width="32" height="32" rx="8" fill="#ffffff" stroke="#e8ecf4"/>
+      <path d="M11.5 10.5h9v11h-9z" fill="none" stroke="#3f4860" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M16 13v5M13.5 15.5L16 18l2.5-2.5" fill="none" stroke="#3f4860" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(464,49)">
+      <rect width="32" height="32" rx="8" fill="#ffffff" stroke="#e8ecf4"/>
+      <rect x="10.5" y="10.5" width="7" height="7" rx="1.4" fill="none" stroke="#3f4860" stroke-width="1.4"/>
+      <rect x="14.5" y="14.5" width="7" height="7" rx="1.4" fill="#ffffff" stroke="#3f4860" stroke-width="1.4"/>
+    </g>
+    <line x1="508" y1="54" x2="508" y2="76" stroke="#e5e9f1"/>
+
+    <g transform="translate(520,49)">
+      <rect width="32" height="32" rx="8" fill="#ffffff" stroke="#e8ecf4"/>
+      <path d="M14 18.5l-1.6 1.6a2.4 2.4 0 0 1-3.4-3.4l2-2a2.4 2.4 0 0 1 3.4 0" fill="none" stroke="#3f4860" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M18 13.5l1.6-1.6a2.4 2.4 0 0 1 3.4 3.4l-2 2a2.4 2.4 0 0 1-3.4 0" fill="none" stroke="#3f4860" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M14.4 17.6l3.2-3.2" stroke="#3f4860" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+    <line x1="564" y1="54" x2="564" y2="76" stroke="#e5e9f1"/>
+
+    <g transform="translate(576,49)">
+      <rect width="32" height="32" rx="8" fill="#ffffff" stroke="#e8ecf4"/>
+      <path d="M20.5 13.5h-8a3.8 3.8 0 0 0 0 7.6h3.5" fill="none" stroke="#3f4860" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M14 10.5l-3 3 3 3" fill="none" stroke="#3f4860" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(610,49)">
+      <rect width="32" height="32" rx="8" fill="#ffffff" stroke="#e8ecf4"/>
+      <path d="M11.5 13.5h8a3.8 3.8 0 0 1 0 7.6h-3.5" fill="none" stroke="#3f4860" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M18 10.5l3 3-3 3" fill="none" stroke="#3f4860" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <line x1="654" y1="54" x2="654" y2="76" stroke="#e5e9f1"/>
+
+    <g transform="translate(666,49)">
+      <rect width="32" height="32" rx="8" fill="#ffffff" stroke="#e8ecf4"/>
+      <path d="M16 10.5V19M12.5 15.5L16 19l3.5-3.5M11 23h10" fill="none" stroke="#3f4860" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- 导出控件 -->
+    <g transform="translate(806,50)">
+      <rect width="64" height="30" rx="8" fill="#ffffff" stroke="#e5e9f1"/>
+      <text x="12" y="19.5" font-size="10.5" fill="#1a2233">PNG</text>
+      <path d="M48 12.5l3 3 3-3" fill="none" stroke="#66708a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(876,50)">
+      <rect width="82" height="30" rx="8" fill="#ffffff" stroke="#e5e9f1"/>
+      <text x="12" y="19.5" font-size="10.5" fill="#1a2233">96</text>
+      <text x="32" y="19.5" font-size="9.5" fill="#98a1b3">DPI</text>
+    </g>
+    <g transform="translate(964,49)">
+      <rect width="110" height="32" rx="9" fill="url(#primary)"/>
+      <path d="M20 9.5v8M16.5 14l3.5 3.5 3.5-3.5" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="33" y="20.5" font-size="11" font-weight="600" fill="#ffffff">导出图片</text>
+    </g>
+    <g transform="translate(1124,46)">
+      <rect width="108" height="36" rx="9" fill="url(#primary)"/>
+      <path d="M17 10h7.5l2.5 2.5V26H17z" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M20 10v5h6.5v-5M20 26v-5.5h6V26" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+      <text x="34" y="22.5" font-size="11.5" font-weight="600" fill="#ffffff">保存 SVG</text>
+    </g>
+
+    <!-- 画布区域 -->
+    <rect x="268" y="98" width="692" height="638" fill="#f1f4f9"/>
+    <rect x="268" y="98" width="692" height="638" fill="url(#grid)" opacity="0.75"/>
+
+    <rect x="316" y="132" width="596" height="548" rx="5" fill="#ffffff" stroke="#e6ebf3" filter="url(#pageShadow)"/>
+
+    <g transform="translate(-59,54)">
+    <!-- 连接线 -->
+    <path d="M586 220V260" stroke="#8b95aa" stroke-width="1.6" marker-end="url(#arrow)"/>
+    <path d="M586 324V340" stroke="#8b95aa" stroke-width="1.6" marker-end="url(#arrow)"/>
+    <path d="M650 386H710" stroke="#8b95aa" stroke-width="1.6" marker-end="url(#arrow)"/>
+    <path d="M586 432V486" stroke="#8b95aa" stroke-width="1.6" marker-end="url(#arrow)"/>
+    <text x="660" y="378" font-size="9.5" fill="#16a34a">是</text>
+    <text x="596" y="464" font-size="9.5" fill="#dc2626">否</text>
+
+    <!-- 图形 -->
+    <rect x="520" y="176" width="132" height="44" rx="22" fill="#eef0ff" stroke="#7c7ff0" stroke-width="1.5"/>
+    <text x="586" y="203" font-size="13" font-weight="600" fill="#4b4acf" text-anchor="middle">开始</text>
+
+    <rect x="514" y="260" width="144" height="64" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="586" y="297" font-size="12.5" font-weight="600" fill="#1e3a8a" text-anchor="middle">读取 SVG</text>
+
+    <polygon points="586,340 650,386 586,432 522,386" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <text x="586" y="390" font-size="11.5" fill="#92400e" text-anchor="middle">结构合法？</text>
+
+    <rect x="710" y="358" width="132" height="58" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="776" y="392" font-size="12" font-weight="600" fill="#14532d" text-anchor="middle">渲染画布</text>
+
+    <rect x="520" y="486" width="132" height="42" rx="21" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="586" y="512" font-size="11.5" font-weight="600" fill="#991b1b" text-anchor="middle">提示错误</text>
+
+    <!-- 选中态 -->
+    <rect x="508" y="254" width="156" height="76" rx="12" fill="none" stroke="#5b5bd6" stroke-width="1.4"/>
+    <circle cx="508" cy="254" r="4" fill="#ffffff" stroke="#5b5bd6" stroke-width="1.5"/>
+    <circle cx="664" cy="254" r="4" fill="#ffffff" stroke="#5b5bd6" stroke-width="1.5"/>
+    <circle cx="508" cy="292" r="4" fill="#ffffff" stroke="#5b5bd6" stroke-width="1.5"/>
+    <circle cx="664" cy="292" r="4" fill="#ffffff" stroke="#5b5bd6" stroke-width="1.5"/>
+    <circle cx="508" cy="330" r="4" fill="#ffffff" stroke="#5b5bd6" stroke-width="1.5"/>
+    <circle cx="664" cy="330" r="4" fill="#ffffff" stroke="#5b5bd6" stroke-width="1.5"/>
+    </g>
+
+    <!-- 左侧元素库 -->
+    <rect x="32" y="98" width="236" height="638" fill="#ffffff"/>
+    <line x1="268" y1="98" x2="268" y2="736" stroke="#e5e9f1"/>
+
+    <g transform="translate(48,112)">
+      <rect width="18" height="18" rx="6" fill="#eef0ff"/>
+      <rect x="4.5" y="4.5" width="4.5" height="4.5" rx="1.2" fill="#5b5bd6"/>
+      <rect x="9" y="9" width="4.5" height="4.5" rx="1.2" fill="#5b5bd6" opacity="0.55"/>
+      <rect x="4.5" y="9" width="4.5" height="4.5" rx="1.2" fill="#5b5bd6" opacity="0.35"/>
+    </g>
+    <text x="74" y="121" font-size="12.5" font-weight="700" fill="#1a2233">元素库</text>
+    <text x="74" y="135" font-size="9" fill="#98a1b3">拖拽到画布，或单击添加</text>
+    <path d="M250 117l-4 4 4 4" fill="none" stroke="#98a1b3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(48,150)">
+      <rect width="204" height="32" rx="8" fill="#f7f9fc" stroke="#e5e9f1"/>
+      <circle cx="17" cy="16" r="5" fill="none" stroke="#98a1b3" stroke-width="1.5"/>
+      <path d="M21 20l4 4" stroke="#98a1b3" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="31" y="20" font-size="10" fill="#98a1b3">搜索元素，如 判断</text>
+    </g>
+
+    <text x="48" y="204" font-size="9.5" font-weight="700" fill="#8a93a8" letter-spacing="0.8">基础形状</text>
+    <rect x="230" y="194" width="22" height="14" rx="7" fill="#f2f4f9"/>
+    <text x="241" y="204" font-size="8.5" fill="#8a93a8" text-anchor="middle">6</text>
+
+    <g>
+      <rect x="48" y="210" width="62" height="56" rx="9" fill="#ffffff" stroke="#e5e9f1"/>
+      <rect x="66" y="228" width="26" height="18" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+      <rect x="118" y="210" width="62" height="56" rx="9" fill="#ffffff" stroke="#e5e9f1"/>
+      <circle cx="149" cy="238" r="9" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+      <rect x="188" y="210" width="62" height="56" rx="9" fill="#ffffff" stroke="#e5e9f1"/>
+      <polygon points="219,226 232,238 219,250 206,238" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+
+      <rect x="48" y="274" width="62" height="56" rx="9" fill="#ffffff" stroke="#e5e9f1"/>
+      <polygon points="66,311 92,311 79,292" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+      <rect x="118" y="274" width="62" height="56" rx="9" fill="#ffffff" stroke="#e5e9f1"/>
+      <polygon points="136,302 143,290 156,290 163,302 156,314 143,314" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+      <rect x="188" y="274" width="62" height="56" rx="9" fill="#ffffff" stroke="#e5e9f1"/>
+      <rect x="206" y="293" width="26" height="18" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    </g>
+
+    <text x="48" y="356" font-size="9.5" font-weight="700" fill="#8a93a8" letter-spacing="0.8">流程图</text>
+    <rect x="230" y="346" width="22" height="14" rx="7" fill="#f2f4f9"/>
+    <text x="241" y="356" font-size="8.5" fill="#8a93a8" text-anchor="middle">3</text>
+
+    <g>
+      <rect x="48" y="362" width="62" height="56" rx="9" fill="#ffffff" stroke="#e5e9f1"/>
+      <rect x="66" y="383" width="26" height="14" rx="7" fill="#eef0ff" stroke="#7c7ff0" stroke-width="1.5"/>
+      <rect x="118" y="362" width="62" height="56" rx="9" fill="#ffffff" stroke="#e5e9f1"/>
+      <rect x="136" y="381" width="26" height="18" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+      <rect x="188" y="362" width="62" height="56" rx="9" fill="#ffffff" stroke="#e5e9f1"/>
+      <polygon points="219,380 231,390 219,400 207,390" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    </g>
+
+    <text x="48" y="436" font-size="9.5" font-weight="700" fill="#8a93a8" letter-spacing="0.8">标注与文字</text>
+    <rect x="230" y="426" width="22" height="14" rx="7" fill="#f2f4f9"/>
+    <text x="241" y="436" font-size="8.5" fill="#8a93a8" text-anchor="middle">3</text>
+
+    <g>
+      <rect x="48" y="442" width="62" height="56" rx="9" fill="#ffffff" stroke="#e5e9f1"/>
+      <text x="79" y="477" font-size="17" font-weight="600" fill="#5b5bd6" text-anchor="middle">T</text>
+      <rect x="118" y="442" width="62" height="56" rx="9" fill="#ffffff" stroke="#e5e9f1"/>
+      <path d="M137 460h18l4 4v16h-22z" fill="#fef3c7" stroke="#d97706" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M155 460v4h4" fill="none" stroke="#d97706" stroke-width="1.5" stroke-linejoin="round"/>
+      <rect x="188" y="442" width="62" height="56" rx="9" fill="#ffffff" stroke="#e5e9f1"/>
+      <path d="M206 470h24M223 463l7 7-7 7" fill="none" stroke="#5b5bd6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <text x="48" y="516" font-size="9.5" font-weight="700" fill="#8a93a8" letter-spacing="0.8">图层</text>
+    <rect x="230" y="506" width="22" height="14" rx="7" fill="#f2f4f9"/>
+    <text x="241" y="516" font-size="8.5" fill="#8a93a8" text-anchor="middle">5</text>
+
+    <g>
+      <rect x="44" y="528" width="208" height="24" rx="7" fill="#ffffff"/>
+      <rect x="56" y="537" width="14" height="8" rx="4" fill="#eef0ff" stroke="#7c7ff0" stroke-width="1.2"/>
+      <text x="78" y="544" font-size="10" fill="#3c4459">开始</text>
+
+      <rect x="44" y="556" width="208" height="24" rx="7" fill="#eef0ff" stroke="#c8cdfb"/>
+      <rect x="56" y="565" width="14" height="8" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1.2"/>
+      <text x="78" y="572" font-size="10" font-weight="600" fill="#4b4acf">读取 SVG</text>
+
+      <rect x="44" y="584" width="208" height="24" rx="7" fill="#ffffff"/>
+      <polygon points="63,589 70,596 63,603 56,596" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+      <text x="78" y="600" font-size="10" fill="#3c4459">结构合法？</text>
+
+      <rect x="44" y="612" width="208" height="24" rx="7" fill="#ffffff"/>
+      <rect x="56" y="621" width="14" height="8" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+      <text x="78" y="628" font-size="10" fill="#3c4459">渲染画布</text>
+    </g>
+
+    <g transform="translate(48,654)">
+      <rect width="204" height="56" rx="10" fill="#f7f9fc" stroke="#e5e9f1"/>
+      <path d="M16 17l12 6-5 2-2 5z" fill="#98a1b3"/>
+      <text x="36" y="26" font-size="9" fill="#66708a">拖动元素到画布可定位放置，</text>
+      <text x="36" y="40" font-size="9" fill="#66708a">或单击添加到当前画布。</text>
+    </g>
+
+    <!-- 右侧属性面板 -->
+    <rect x="960" y="98" width="288" height="638" fill="#ffffff"/>
+    <line x1="960" y1="98" x2="960" y2="736" stroke="#e5e9f1"/>
+
+    <g transform="translate(976,112)">
+      <rect width="18" height="18" rx="6" fill="#eef0ff"/>
+      <circle cx="9" cy="9" r="5" fill="none" stroke="#5b5bd6" stroke-width="1.4"/>
+      <circle cx="7.5" cy="7.5" r="1" fill="#5b5bd6"/>
+      <circle cx="11" cy="10.5" r="1" fill="#5b5bd6"/>
+    </g>
+    <text x="1002" y="121" font-size="12.5" font-weight="700" fill="#1a2233">属性</text>
+    <text x="1002" y="135" font-size="9" fill="#98a1b3">矩形 · 图形属性</text>
+    <path d="M1210 117l4 4-4 4" fill="none" stroke="#98a1b3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(976,152)">
+      <rect width="256" height="44" rx="10" fill="#f7f9fc" stroke="#e5e9f1"/>
+      <rect x="12" y="10" width="24" height="24" rx="7" fill="#ffffff" stroke="#e5e9f1"/>
+      <rect x="19" y="17" width="10" height="8" rx="1.5" fill="#dbeafe" stroke="#2563eb" stroke-width="1.3"/>
+      <text x="48" y="20" font-size="8.5" fill="#98a1b3">元素类型</text>
+      <text x="48" y="34" font-size="12" font-weight="600" fill="#1a2233">矩形</text>
+    </g>
+
+    <text x="976" y="216" font-size="9.5" font-weight="700" fill="#8a93a8" letter-spacing="0.8">文本</text>
+    <g transform="translate(976,224)">
+      <rect width="256" height="30" rx="8" fill="#ffffff" stroke="#e5e9f1"/>
+      <text x="12" y="19.5" font-size="10.5" fill="#1a2233">读取 SVG</text>
+    </g>
+
+    <text x="976" y="280" font-size="9.5" font-weight="700" fill="#8a93a8" letter-spacing="0.8">位置与尺寸</text>
+    <g>
+      <rect x="976" y="288" width="124" height="30" rx="8" fill="#ffffff" stroke="#e5e9f1"/>
+      <text x="988" y="307" font-size="9.5" fill="#98a1b3">X</text>
+      <text x="1088" y="307" font-size="10.5" fill="#1a2233" text-anchor="end">455</text>
+      <rect x="1108" y="288" width="124" height="30" rx="8" fill="#ffffff" stroke="#e5e9f1"/>
+      <text x="1120" y="307" font-size="9.5" fill="#98a1b3">Y</text>
+      <text x="1220" y="307" font-size="10.5" fill="#1a2233" text-anchor="end">314</text>
+
+      <rect x="976" y="324" width="124" height="30" rx="8" fill="#ffffff" stroke="#e5e9f1"/>
+      <text x="988" y="343" font-size="9.5" fill="#98a1b3">宽</text>
+      <text x="1088" y="343" font-size="10.5" fill="#1a2233" text-anchor="end">144</text>
+      <rect x="1108" y="324" width="124" height="30" rx="8" fill="#ffffff" stroke="#e5e9f1"/>
+      <text x="1120" y="343" font-size="9.5" fill="#98a1b3">高</text>
+      <text x="1220" y="343" font-size="10.5" fill="#1a2233" text-anchor="end">64</text>
+
+      <rect x="976" y="360" width="256" height="30" rx="8" fill="#ffffff" stroke="#e5e9f1"/>
+      <text x="988" y="379" font-size="9.5" fill="#98a1b3">旋转</text>
+      <text x="1220" y="379" font-size="10.5" fill="#1a2233" text-anchor="end">0°</text>
+    </g>
+
+    <text x="976" y="416" font-size="9.5" font-weight="700" fill="#8a93a8" letter-spacing="0.8">外观</text>
+    <g>
+      <rect x="976" y="424" width="124" height="34" rx="8" fill="#ffffff" stroke="#e5e9f1"/>
+      <rect x="986" y="434" width="14" height="14" rx="3" fill="#dbeafe" stroke="#cbd5e1"/>
+      <text x="1006" y="445" font-size="8.5" fill="#66708a">#DBEAFE</text>
+      <rect x="1108" y="424" width="124" height="34" rx="8" fill="#ffffff" stroke="#e5e9f1"/>
+      <rect x="1118" y="434" width="14" height="14" rx="3" fill="#2563eb" stroke="#1d4ed8"/>
+      <text x="1138" y="445" font-size="8.5" fill="#66708a">#2563EB</text>
+
+      <rect x="976" y="466" width="256" height="30" rx="8" fill="#ffffff" stroke="#e5e9f1"/>
+      <text x="988" y="485" font-size="9.5" fill="#98a1b3">线宽</text>
+      <text x="1220" y="485" font-size="10.5" fill="#1a2233" text-anchor="end">2 px</text>
+    </g>
+
+    <g transform="translate(976,516)">
+      <rect width="256" height="34" rx="9" fill="#ffffff" stroke="#f2c9c5"/>
+      <path d="M17 14h10M20 14v-2.5h4V14M18.5 16.5l.7 9h5.6l.7-9" fill="none" stroke="#c9372c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="34" y="21.5" font-size="11" fill="#c9372c">删除图形</text>
+    </g>
+
+    <g transform="translate(976,574)">
+      <rect width="256" height="64" rx="10" fill="#f7f9fc" stroke="#e5e9f1"/>
+      <text x="14" y="24" font-size="9.5" font-weight="700" fill="#8a93a8" letter-spacing="0.8">提示</text>
+      <text x="14" y="41" font-size="9" fill="#66708a">按住 Ctrl / Shift 点击可多选，</text>
+      <text x="14" y="54" font-size="9" fill="#66708a">Ctrl + 滚轮以光标为中心缩放。</text>
+    </g>
+
+    <!-- 状态栏 -->
+    <rect x="32" y="736" width="1216" height="32" fill="#ffffff"/>
+    <line x1="32" y1="736" x2="1248" y2="736" stroke="#e5e9f1"/>
+    <circle cx="50" cy="752" r="3.5" fill="#12a150"/>
+    <text x="60" y="755.5" font-size="10" fill="#66708a">就绪</text>
+    <text x="940" y="755.5" font-size="9.5" fill="#98a1b3" text-anchor="end">5 个图形 · 4 条连接线</text>
+
+    <g>
+      <path d="M1096 752h8" stroke="#66708a" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="1112" y1="753" x2="1172" y2="753" stroke="#dfe5ef" stroke-width="3" stroke-linecap="round"/>
+      <line x1="1112" y1="753" x2="1148" y2="753" stroke="#5b5bd6" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="1148" cy="753" r="5" fill="#ffffff" stroke="#5b5bd6" stroke-width="2"/>
+      <path d="M1180 752h8M1184 748v8" stroke="#66708a" stroke-width="1.5" stroke-linecap="round"/>
+      <rect x="1198" y="744" width="34" height="18" rx="6" fill="#f2f4f9"/>
+      <text x="1215" y="756" font-size="9.5" fill="#66708a" text-anchor="middle">80%</text>
+    </g>
+  </g>
+
+  <rect x="32.5" y="32.5" width="1215" height="735" rx="15.5" fill="none" stroke="#dbe1ec"/>
+</svg>
